@@ -35,7 +35,9 @@ public class InsertServlet extends HttpServlet {
 
             PrintWriter out = response.getWriter();
             out.println("<h2>Data Inserted Successfully</h2>");
-            out.println("<a href='Db.html'>Back</a>");
+            //out.println("<a href='../forms/Db.html'>Back</a>");
+            String path = request.getContextPath();
+            out.println("<a href='" + path + "/forms/Db.html'>Back</a>");
 
             con.close();
 

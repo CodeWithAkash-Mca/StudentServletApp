@@ -24,5 +24,6 @@ public class SetCookieServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         out.println("<h2>Cookie Saved</h2>");
         out.println("<a href='getCookie'>Go to Next Page</a>");
+
     }
 }

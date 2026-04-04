@@ -22,8 +22,9 @@ public class LogoutServlet extends HttpServlet {
         out.println("<h2>Logged out successfully</h2>");
         String path = request.getContextPath();
 
-        //out.println("<a href='" + path + "/Login.html'>Login again</a>");
+        out.println("<a href='" + path + "/forms/Login.html'>Login again</a>");
         //out.println("<a href='Login.html'>Login again</a>");
-        out.println("<a href='/StudentServletApp_war_exploded/Login.html'>Login again</a>");
+        //out.println("<a href='/StudentServletApp_war_exploded/Login.html'>Login again</a>");
+        //out.println("<a href='../Login.html'>Login again</a>");
     }
 }
