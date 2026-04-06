@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Student Form</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<div class="page-shell">
+  <div class="form-card">
+    <h2>Student Info</h2>
+    <p class="subtitle">Submit student details using GET or POST methods.</p>
 
-<h2>Student Info</h2>
+    <form action="../StudentServlet" method="get">
+      <div class="form-row">
+        <label class="field-group">Name
+          <input type="text" name="name" placeholder="Enter student name">
+        </label>
+        <label class="field-group">Age
+          <input type="text" name="age" placeholder="Enter age">
+        </label>
+      </div>
+      <div class="form-actions">
+        <input type="submit" value="Submit GET">
+      </div>
+    </form>
 
-<form action="../StudentServlet" method="get">
-  Name: <input type="text" name="name"><br><br>
-  Age: <input type="text" name="age"><br><br>
-  <input type="submit" value="Submit GET">
-</form>
+    <form action="../StudentServlet" method="post">
+      <div class="form-row">
+        <label class="field-group">Name
+          <input type="text" name="name" placeholder="Enter student name">
+        </label>
+        <label class="field-group">Age
+          <input type="text" name="age" placeholder="Enter age">
+        </label>
+      </div>
+      <div class="form-actions">
+        <input type="submit" value="Submit POST">
+      </div>
+    </form>
 
-<br><br>
-
-<form action="../StudentServlet" method="post">
-  Name: <input type="text" name="name"><br><br>
-  Age: <input type="text" name="age"><br><br>
-  <input type="submit" value="Submit POST">
-</form>
-
+    <div class="link-row">
+      <a class="button-link" href="../index.jsp">Back to Home</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>

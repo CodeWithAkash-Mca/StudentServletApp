@@ -11,15 +11,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c2adaf4c-e064-45c9-9236-b3537a491481" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/InsertServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/InsertServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlet/SetCookieServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlet/SetCookieServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Cookie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Db.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Db.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/LoginDb.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/LoginDb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/StudentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/StudentDetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1775300436522</updated>
       <workItem from="1775300437726" duration="8672000" />
-      <workItem from="1775335486878" duration="1718000" />
+      <workItem from="1775335486878" duration="2795000" />
+      <workItem from="1775507507932" duration="1345000" />
     </task>
     <servers />
   </component>

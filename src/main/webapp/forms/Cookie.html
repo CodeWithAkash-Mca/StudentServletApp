@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Cookie Example</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<div class="page-shell">
+  <div class="form-card">
+    <h2>Cookie Example</h2>
+    <p class="subtitle">Save your name in a cookie and retrieve it later.</p>
 
-<h2>Enter Your Name</h2>
+    <form action="../setCookie" method="post">
+      <label>Name
+        <input type="text" name="username" placeholder="Enter your name">
+      </label>
+      <div class="form-actions">
+        <input type="submit" value="Save in Cookie">
+      </div>
+    </form>
 
-<form action="../setCookie" method="post">
-  Name: <input type="text" name="username"><br><br>
-  <input type="submit" value="Save in Cookie">
-</form>
-
+    <div class="link-row">
+      <a class="button-link" href="../index.jsp">Back to Home</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>

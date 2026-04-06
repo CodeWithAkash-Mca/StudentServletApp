@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Login</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<div class="page-shell">
+  <div class="form-card">
+    <h2>DB Login</h2>
+    <p class="subtitle">Authenticate with username and password from the database.</p>
 
-<h2>Login (DB)</h2>
+    <form action="../loginDb" method="post">
+      <label>Username
+        <input type="text" name="username" placeholder="Enter username">
+      </label>
+      <label>Password
+        <input type="password" name="password" placeholder="Enter password">
+      </label>
+      <div class="form-actions">
+        <input type="submit" value="Login">
+      </div>
+    </form>
 
-<form action="../loginDb" method="post">
-  Username: <input type="text" name="username"><br><br>
-  Password: <input type="password" name="password"><br><br>
-
-  <input type="submit" value="Login">
-</form>
-
+    <div class="link-row">
+      <a class="button-link" href="../index.jsp">Back to Home</a>
+    </div>
+  </div>
+</div>
 </body>
 </html>
