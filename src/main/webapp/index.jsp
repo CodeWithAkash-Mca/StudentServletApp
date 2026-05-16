@@ -83,6 +83,8 @@
     <a href="forms/Cookie.html" title="Demonstrate cookie creation and retrieval">🍪 Cookies</a>
     <a href="forms/Db.html" title="Insert and view student records in database">💾 Database Insert/View</a>
     <a href="refresh" title="Automatically refresh the page every few seconds">🔄 Auto Refresh</a>
+    <a href="forms/Voter.html" title="Voters can check their eligibility"> Voters Eligibility</a>
+    <a href="forms/DateTime.html" title="Date and time is very imp things"> Date & Time</a>
 </div>
 
 </body>

@@ -11,13 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2adaf4c-e064-45c9-9236-b3537a491481" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Cookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Db.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Db.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/LoginDb.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/LoginDb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/StudentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/StudentDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/forms/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/forms/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +46,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/An Emotion Detection System/emotion-backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Servlet_Projects\StudentServletApp\src\main\webapp\forms" />
@@ -123,7 +117,15 @@
       <updated>1775300436522</updated>
       <workItem from="1775300437726" duration="8672000" />
       <workItem from="1775335486878" duration="2795000" />
-      <workItem from="1775507507932" duration="1345000" />
+      <workItem from="1775507507932" duration="1606000" />
+      <workItem from="1775743310370" duration="26000" />
+      <workItem from="1776062172022" duration="72000" />
+      <workItem from="1776064953329" duration="640000" />
+      <workItem from="1776066572440" duration="612000" />
+      <workItem from="1776332154882" duration="22000" />
+      <workItem from="1776940292651" duration="655000" />
+      <workItem from="1777231824291" duration="1686000" />
+      <workItem from="1777453013378" duration="39000" />
     </task>
     <servers />
   </component>

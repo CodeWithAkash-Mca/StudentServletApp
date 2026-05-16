@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Voter Eligibility Form</title>
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="page-shell">
+
+  <div class="form-card">
+
+    <h2>Voter Eligibility Form</h2>
+
+    <p class="subtitle">
+      Enter your details to check voting eligibility.
+    </p>
+
+    <form action="../voter" method="post">
+
+      <label>
+        Name
+        <input type="text"
+               name="name"
+               placeholder="Enter full name"
+               required>
+      </label>
+
+      <label>
+        Age
+        <input type="number"
+               name="age"
+               placeholder="Enter your age"
+               required>
+      </label>
+
+      <label>
+        Mobile Number
+        <input type="text"
+               name="mobile"
+               placeholder="Enter mobile number"
+               required>
+      </label>
+
+      <div class="form-actions">
+        <input type="submit" value="Check Eligibility">
+      </div>
+
+    </form>
+
+    <div class="link-row">
+      <a class="button-link" href="../index.jsp">
+        Back to Home
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
