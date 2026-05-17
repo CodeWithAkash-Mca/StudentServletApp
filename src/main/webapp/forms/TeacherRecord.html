@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Teacher Form</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Segoe UI,sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(
+                    135deg,
+                    #0f172a,
+                    #1e293b,
+                    #334155
+            );
+        }
+
+        .container{
+            width:400px;
+            padding:35px;
+            border-radius:20px;
+            background:rgba(255,255,255,0.08);
+            backdrop-filter:blur(10px);
+            color:white;
+        }
+
+        h1{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        input{
+            width:100%;
+            padding:12px;
+            margin-top:12px;
+            border:none;
+            border-radius:10px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:20px;
+            border:none;
+            border-radius:10px;
+            background:#2563eb;
+            color:white;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Teacher Form</h1>
+
+    <form action="../teacher" method="post">
+
+        <input type="text"
+               name="teacher_name"
+               placeholder="Enter Teacher Name"
+               required>
+
+        <input type="text"
+               name="subject"
+               placeholder="Enter Subject"
+               required>
+
+        <input type="number"
+               name="experience"
+               placeholder="Enter Experience"
+               required>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
